@@ -53,17 +53,18 @@ const Art = () => {
           </ul>
 
           <div className="cocktail-img">
+
             <img
               src="/images/under-img.jpg"
               alt="under-img"
-              className="abs-center masked-img size-full object-cover"
+              className="abs-center masked-img size-full object-cover noisy"
             />
           </div>
 
           <ul className="space-y-4 will-fade">
             {featureLists.map((feature, index) => (
               <li key={index} className="flex items-center gap-2">
-                <img src="/images/check.png" alt="check" />
+                <img src="/images/check.png" alt="check"  />
                 <p>{feature}</p>
               </li>
             ))}
